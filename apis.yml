@@ -1,9 +1,30 @@
 aid: forte-labs
 name: Forte Labs
-description: Forte Labs is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Forte builds on-chain compliance and economic tooling for games and Web3
+  applications. Its flagship developer product, the Forte Rules Engine, is an
+  open-source EVM protocol that lets developers define powerful, flexible, and
+  composable on-chain policies — for regulatory compliance, risk management, and
+  token-economy design — without hardcoding rules into their smart contracts.
+  The engine centers on policies, rules, trackers, and calling/foreign
+  contracts, ships client contracts for the ERC20/721/1155/721A token
+  standards, and is consumed through a TypeScript SDK. Forte was founded in 2019
+  and is backed by Andreessen Horowitz, Battery Ventures, Griffin Gaming
+  Partners, and Canaan. This profile catalogs Forte's public developer surface —
+  Rules Engine documentation, SDK, and GitHub organization.
 url: https://raw.githubusercontent.com/api-evangelist/forte-labs/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.forte.io/wp-content/uploads/2024/11/Forte_favicon_512.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +33,59 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Blockchain
+- Web3
+- Compliance
+- Smart Contracts
+- Gaming
+- Developer Tools
+- SDK
+- EVM
+- On-Chain Governance
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/forte-labs-domain-security.yml
+- type: Website
+  url: https://www.forte.io/
+- type: DeveloperPortal
+  url: https://www.forte.io/developers/
+- type: Documentation
+  url: https://docs.forterulesengine.io/
+- type: APIReference
+  url: https://docs.forterulesengine.io/reference/client/toc
+- type: Quickstart
+  url: https://docs.forterulesengine.io/quickstart
+- type: GitHubOrganization
+  url: https://github.com/Forte-Service-Company-Ltd
+- type: Blog
+  url: https://www.forte.io/blog/
+- type: Support
+  url: https://www.forte.io/contact-us/
+- type: PrivacyPolicy
+  url: https://www.forte.io/privacy-policy/
+- type: TermsOfService
+  url: https://www.forte.io/terms/
+- type: LLMsTxt
+  url: llms/forte-labs-llms.txt
+- type: Packages
+  url: packages/forte-labs-packages.yml
+- type: SDKs
+  url: packages/forte-labs-packages.yml
+- type: ChangeLog
+  url: changelog/forte-labs-changelog.yml
+- type: Lifecycle
+  url: lifecycle/forte-labs-lifecycle.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

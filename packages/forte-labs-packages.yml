@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/package/@thrackle-io/forte-rules-engine-sdk
+packages:
+- language: typescript
+  registry: npm
+  name: "@thrackle-io/forte-rules-engine-sdk"
+  version: 0.2.0
+  url: https://www.npmjs.com/package/@thrackle-io/forte-rules-engine-sdk
+  repository: https://github.com/Forte-Service-Company-Ltd/forte-rules-engine-sdk
+  install: npm install @thrackle-io/forte-rules-engine-sdk
+  license: BSL 1.1
+  description: >-
+    TypeScript SDK for interacting with the Forte Rules Engine — create and
+    manage policies, rules, and trackers, and integrate rule enforcement into
+    on-chain applications.
+  official: true
+notes: >-
+  The Forte Rules Engine protocol itself is distributed as Solidity smart
+  contracts (github.com/Forte-Service-Company-Ltd/forte-rules-engine, BUSL-1.1),
+  not as a published package registry artifact; the TypeScript SDK above is the
+  first-party client library. No first-party PyPI, Maven, NuGet, Go module,
+  RubyGems, Packagist, or crates.io package was found.

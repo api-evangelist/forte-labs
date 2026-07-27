@@ -1,0 +1,31 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.forterulesengine.io/
+versioning:
+  scheme: semver
+  contracts_current: v0.9.2
+  sdk_current: 0.2.0
+  docs_channel: v2
+  docs: https://docs.forterulesengine.io/
+  notes: >-
+    Contract and SDK artifacts are versioned independently under semver; the
+    published contract reference is pinned at v0.9.2 and the documentation site
+    serves a v2 channel.
+networks:
+  docs: https://docs.forterulesengine.io/networks
+  notes: >-
+    The Rules Engine is deployed to multiple EVM networks; the supported-networks
+    page enumerates the live deployments (chain + engine address).
+deprecation:
+  policy_url: null
+  sunset_header: null
+  notes: No formal deprecation / sunset-header policy is published.
+sla:
+  url: null
+  uptime_target: null
+status_page: null
+deprecated_operations: []
+notes: >-
+  No public status page, SLA, or formal deprecation policy was found — expected
+  for an open-source, self-hosted on-chain protocol where availability is a
+  property of the underlying blockchain network rather than a hosted API.
